@@ -3,10 +3,12 @@
 
 2). copy .env.example to .env and setup your database
 
-3). run command php artisan key:generate
+3). run command composer install
 
-4). change the permission of directory bootstrap/cache/ and storage/ to -R 777
+4). run command php artisan key:generate
 
-5). run command php artisan migrate --seed
+5). change the permission of directory bootstrap/cache/ and storage/ to -R 777
 
-6). run command php artisan serve
+6). run command php artisan migrate --seed
+
+7). run command php artisan serve
